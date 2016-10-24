@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+	<!-- Importing Libraries-->
+	<!-- jQuery Import -->
+	<script src="lib/jquery/jquery-3.11.min.js"></script>
+	<script src="lib/jquery/jquery.xml2json.js"></script>
+	<!-- Bootstrap Import -->
+	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap-theme.min.css">
+	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+	<!-- D3 Import -->	
+	<script src="lib/d3/d3.min.js"></script>
+	<!-- Custom Stylesheet -->	
+	<link rel="stylesheet" href="style.css">
+	<!-- Script to control major functionality -->	
+	<script src="script.js"></script>
+
+</head>
+<body>
+	<header>
+		<h1 class="title"><i><b>Track the Train</b></i></h1>
+		<p id="next_update"></p>		
+	</header>
+
+	<div class="main">
+		<div id="map"></div>
+	</div>
+
+	<div id="right_panel">
+		<br/>
+		<h2 class='route_label'>Select Desired Routes</h2>
+		<div id="rp">
+			<div>
+				<p class='button toggle_all_routes'>View All</p>
+			</div>
+			<div id="route_lightrail">
+				<p class='route_label'>Light Rail Choices</p>
+			</div>
+			<div id="route_bus">
+				<p class='route_label'>Bus Choices</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
+
+
+
